@@ -257,7 +257,10 @@ $(document).ready(function(){
     }
     else{
       $('#email_Err').hide();
-      $("#inputEmail").css("border","1px solid #ced4da");
+     // $("#inputEmail").css("border","1px solid #ced4da");
+      $("#inputEmail").css("border","none");
+
+
       emailError=true;
      return true;
   
@@ -293,7 +296,9 @@ $(document).ready(function(){
     else{
       $('#name_Err').hide();
       nameError=true;
-      $("#inputName").css("border","1px solid #ced4da");
+     // $("#inputName").css("border","1px solid #ced4da");
+     $("#inputName").css("border","none");
+
      return true;
   
     }
@@ -348,7 +353,8 @@ $(document).ready(function(){
       else{
       $('#contact_Err').hide();
       contactError=true;
-      $("#inputContact").css("border","1px solid #ced4da");
+      //$("#inputContact").css("border","1px solid #ced4da");
+      $("#inputContact").css("border","none");
      return true;
       }
   

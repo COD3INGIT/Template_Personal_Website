@@ -1165,7 +1165,8 @@ position:absolute;
         column-gap: 3rem;
     }
     .project__data{
-        padding-top: .8rem;;
+        padding-top: .8rem;
+        padding-bottom: 4rem;
     }
     
     .footer__container{
@@ -1205,6 +1206,11 @@ position:absolute;
     .services__container{
            grid-template-columns: repeat(3, 238px);
     }
+    .project__data{
+        padding-top: .8rem;
+        padding-bottom: 4rem;
+    }
+    
     .portfolio__content{
         column-gap: 5rem;
     }
