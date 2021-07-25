@@ -371,7 +371,7 @@ $(document).ready(function(){
         return true;
     } else {
         //alert("Please fill the details")
-        $('#form__message').html("Please fill details")
+        $('#form__message').html("*Please fill the above details")
         return false;
     }
   });
