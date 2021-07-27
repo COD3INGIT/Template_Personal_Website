@@ -271,7 +271,8 @@ $(document).ready(function(){
   {
     let name=$('#inputName').val();
     let strName=name.charAt(0);
-    var nameRegx=/[a-zA-Z]+(\s+[-a-zA-Z-()]+)*$/;
+    //var nameRegx=/^\S[a-zA-Z]+(\s+[-a-zA-Z-()]+)*$/;
+    var nameRegx= /^[a-zA-Z][\sa-zA-Z]*/ ;
    // var nameRegx=/^[a-zA-Z ]{2,30}$/;
   
     if(name==null || name=="")
