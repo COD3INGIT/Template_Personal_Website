@@ -241,7 +241,7 @@ $(document).ready(function(){
     {
       $('#email_Err').show();
       $('#email_Err').html("*email required");
-      $("#inputEmail").css("border", "1px solid red");
+     // $("#inputEmail").css("border", "1px solid red");
       emailError=false;
       return false;
     }
@@ -249,7 +249,7 @@ $(document).ready(function(){
   
       $('#email_Err').show();
       $('#email_Err').html("**enter valid email");
-      $("#inputEmail").css("border", "1px solid red");
+     // $("#inputEmail").css("border", "1px solid red");
       emailError=false;
       return false;
   
@@ -278,7 +278,7 @@ $(document).ready(function(){
     {
       $('#name_Err').show();
       $('#name_Err').html("*name required");
-      $("#inputName").css("border", "1px solid red");
+    //  $("#inputName").css("border", "1px solid red");
       nameError=false;
       return false;
     }
@@ -287,7 +287,7 @@ $(document).ready(function(){
   
       $('#name_Err').show();
       $('#name_Err').html("**only alphabets allowed");
-      $("#inputName").css("border", "1px solid red");
+     // $("#inputName").css("border", "1px solid red");
       nameError=false;
       return false;
   
@@ -313,7 +313,7 @@ $(document).ready(function(){
     {
       $('#contact_Err').show();
       $('#contact_Err').html("*contact no: required");
-      $("#inputContact").css("border", "1px solid red");
+     // $("#inputContact").css("border", "1px solid red");
       contactError=false;
       return false;
     }
@@ -325,7 +325,7 @@ $(document).ready(function(){
         $('#contact_Err').show();
         $('#contact_Err').html("**only numbers allowed ");
         $('#inputContact').val($('#inputContact').val().replace(/[^0-9]/g, ''))
-        $("#inputContact").css("border", "1px solid red");
+       // $("#inputContact").css("border", "1px solid red");
       contactError=false;
         return false;
       
@@ -334,7 +334,7 @@ $(document).ready(function(){
     {
        $('#contact_Err').show();
         $('#contact_Err').html("**contact no: should be 10 digits");
-           $("#inputContact").css("border", "1px solid red");
+      //     $("#inputContact").css("border", "1px solid red");
         contactError=false;
         return false;
     }
@@ -346,7 +346,7 @@ $(document).ready(function(){
       {
         $('#contact_Err').show();
         $('#contact_Err').html("**contact no: should not exceed 10 digits");
-        $("#inputContact").css("border", "1px solid red");
+      //  $("#inputContact").css("border", "1px solid red");
         contactError=false;
         return false;
       }
