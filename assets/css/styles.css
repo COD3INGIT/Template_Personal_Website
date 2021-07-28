@@ -882,6 +882,9 @@ position:absolute;
 
 
 }
+.form__message{
+    position:relative;
+}
 
 /*==================== FOOTER ====================*/
 .footer{

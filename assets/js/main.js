@@ -221,6 +221,7 @@ $(document).ready(function(){
     $('#name_Err').hide();
   
     $("#inputName").keyup(function(){
+      $('#form__message').html(" ");
       validateName();
      });
   

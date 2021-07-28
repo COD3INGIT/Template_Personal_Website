@@ -936,8 +936,16 @@
                     data:$("#submit-form").serialize(),
                     method:"post",
                     success:function (response){
-                        alert("Form submitted successfully")
-                        window.location.reload()
+                       // alert("Form submitted successfully")
+                        $('#inputName').val(" ");
+                        $('#inputContact').val(" ");
+                        
+                        $('#inputEmail').val(" ")
+                        $('#form__message').html("*Form submitted successfully")
+                        
+                       
+                        
+                       // window.location.reload()
                         //window.location.href="https://google.com"
                     },
                     error:function (err){
