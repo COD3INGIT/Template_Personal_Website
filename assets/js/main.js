@@ -215,13 +215,15 @@ $(document).ready(function(){
   
     $('#email_Err').hide();
     $("#inputEmail").keyup(function(){
+      $('#form__message').html("");
      validateEmail();
+    
     });
   
     $('#name_Err').hide();
   
     $("#inputName").keyup(function(){
-     
+      $('#form__message').html("");
       validateName();
       
      });
