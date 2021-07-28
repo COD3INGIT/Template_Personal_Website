@@ -221,8 +221,9 @@ $(document).ready(function(){
     $('#name_Err').hide();
   
     $("#inputName").keyup(function(){
-      $('#form__message').html(" ");
+     
       validateName();
+      
      });
   
     $('#contact_Err').hide();
@@ -270,6 +271,7 @@ $(document).ready(function(){
   }
   function validateName()
   {
+   
     let name=$('#inputName').val();
     let strName=name.charAt(0);
     //var nameRegx=/^\S[a-zA-Z]+(\s+[-a-zA-Z-()]+)*$/;
